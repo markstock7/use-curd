@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "strictNullChecks": false,
+    "removeComments": true,
+    "preserveConstEnums": false,
+    "strictFunctionTypes": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "allowJs": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "jsx": "preserve",
+    "stripInternal": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "lib": ["dom", "es2017"]
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
+  ],
+  "exclude": ["lib", "es"]
+}
